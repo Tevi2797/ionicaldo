@@ -1,0 +1,11 @@
+ion-menu::part(backdrop) {
+  background-color: rgba(4, 218, 246, 0.5);
+}
+
+ion-menu::part(container) {
+  border-radius: 10px 25px 20px 0;
+  border-left: 0 50px 20px 0;
+
+
+  box-shadow: 10px 0px 16px rgba(37, 207, 207, 0.18);
+}
