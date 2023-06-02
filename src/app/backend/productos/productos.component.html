@@ -1,3 +1,21 @@
-<p>
-  productos works!
-</p>
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+        Iniciodasd
+    </ion-title>
+      <ion-buttons slot="start">
+        <ion-button (click)="openMenu()">
+          <ion-icon slot="icon-only" name="menu-sharp"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-item>
+    <ion-label>Awesome Label</ion-label>
+  </ion-item>
+  <ion-button (click)="openMenu()">
+    <ion-icon slot="icon-only" name="add"></ion-icon>
+  </ion-button>
+</ion-content>
+

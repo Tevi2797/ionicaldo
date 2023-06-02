@@ -1,3 +1,4 @@
+import { MenuController } from '@ionic/angular';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductosComponent  implements OnInit {
 
-  constructor() { }
+  constructor(public menucontroler:MenuController) { }
 
   ngOnInit() {}
+
+openMenu(){
+console.log('openmenu');
+this.menucontroler.toggle('primero');
+}
 
 }
